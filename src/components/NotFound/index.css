@@ -1,0 +1,27 @@
+.not-found-container {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-img {
+  width: 200px;
+}
+@media screen and (min-width: 768px) {
+  .not-found-img {
+    width: 400px;
+  }
+}
+.not-found-heading {
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .not-found-heading {
+    font-size: 25px;
+  }
+}
+.not-found-description {
+  width: 100%;
+  text-align: center;
+}
